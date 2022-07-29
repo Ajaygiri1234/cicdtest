@@ -1,0 +1,11 @@
+version: "3.9"
+   
+services:
+ 
+  web_custom:
+    image: web_custom:1.0
+    ports:
+      - 80:8000
+    volumes:
+     - .:/code
+ 
